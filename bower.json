@@ -1,0 +1,24 @@
+{
+  "name": "browser-sync-jekyll",
+  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "main": "gulpfile.js",
+  "authors": [
+    "Shane Osbourne"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "homepage": "https://github.com/wezdez/sass-browser-sync-jade-jekyll",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
