@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Difference between switch and if/else "
+date:   2016-01-31 10:01:48
+categories: Skill Distillery 
+---
+
+<h3>What is the difference between ‘if/else’ and ‘switch’? When would you use one versus the other?</h3>
+<p>Many people generalize that 'if/else' and 'switch' perform the same task. This is true in that both 'if/else' and 'switch' will perform a task based on the comparison of a condition, however, there are some differences that I put to the challenge in my test code <a href="https://github.com/wezdez/misc/blob/master/switchTest.java"> <u>here</u></a>. Through research and expirimentation, I have concluded that 'switch's minor advantage is that it compiles and runs faster (since it jumps straight to the case instead of checking every condition[if you are worried about performance]) but falls short to the flexibility and popularity of 'if/else'. Where 'switch' lacks flixibility 'if/else' excells in that it: can make mutliple comparisons in the conditon while using logical operators, checks conditons sequentially and can use variable expressions in the condition. When I tried to use a varible in a switch case condition, the console printed an error stating "constant expression required" for both a string and an int. Ultimately, from my understanding, it is best to use 'switch' when switching on a signle constant, otherwise use 'if/else'.</p>
+
+
