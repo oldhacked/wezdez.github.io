@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Cast"
+date:   2016-02-01 11:00:00
+categories: Skill Distillery 
+---
+
+<h3>What does it mean to ‘cast a double to an int’? Give an example of when you would do this and explain what is happening.</h3>
+<p> A type cast, temporarily stores a value of one data type into another data type.
+	In the highlighted code below we are trying to achieve a randome number between one and 6. We know that Math.random outputs a double value so we need to cast that double value into an int. As things in java normally go through their operations on the right and store things on the left, we see in the highlighted code that the the double is casted into an int through "(int)" and stored into r1. For example, Math.random may have generated a number like 5.42323. What the cast does is "truncate" the value (or get rid of everything after the decimal point) thus leaving just the int value of 5. </p>
+
+{% highlight java %}
+r1 = 1 + (int)(6 * Math.random());
+{% endhighlight %}
