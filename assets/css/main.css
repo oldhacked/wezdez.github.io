@@ -666,7 +666,8 @@ a:visited {
   /*fallback*/
   width: -o-calc(23.125% - 10px);
   width: calc(23.125% - 10px);
-  margin-right: 10px; }
+  margin-right: 10px;
+  }
 
 .footer-col-3 {
   width: 335px;
@@ -683,6 +684,15 @@ a:visited {
   letter-spacing: -.3px;
   color: #828282; }
 
+.linkedin-icon{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  margin-right: 4px;
+
+
+}
 .github-icon-svg,
 .twitter-icon-svg {
   display: inline-block;
@@ -690,6 +700,8 @@ a:visited {
   height: 16px;
   position: relative;
   top: 3px; }
+
+
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
